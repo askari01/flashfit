@@ -1,0 +1,6 @@
+framework module SWBufferedToast {
+  umbrella header "SWBufferedToast-umbrella.h"
+
+  export *
+  module * { export * }
+}

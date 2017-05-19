@@ -1,0 +1,28 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+pod 'SwiftHTTP', '~> 1.0.1'
+pod 'Alamofire', '~> 3.0.0'
+pod 'SwiftyJSON', '~> 2.3.0'
+#pod 'Alamofire', :git => 'https://github.com/SwiftyJSON/Alamofire-SwiftyJSON.git'
+pod 'SwiftyUserDefaults'
+pod 'Braintree',
+:git => 'https://github.com/braintree/braintree_ios.git',
+:branch => 'master'
+pod 'JSQMessagesViewController'
+pod 'Fabric'
+pod 'Crashlytics'
+pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift2'
+pod 'AMSmoothAlert', '~> 1.0'
+pod 'SwiftSpinner', '~> 0.8'
+pod 'ALCameraViewController'
+pod 'SCLAlertView', '~> 0.4'
+pod 'SWBufferedToast'
+pod 'ChameleonFramework/Swift'
+pod 'Socket.IO-Client-Swift', '~> 5.5.0'
+pod 'Log'
+pod 'RavenSwift'
+pod 'Chatto'
+pod 'ChattoAdditions'
+#pod 'JSQSystemSoundPlayer'

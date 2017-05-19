@@ -1,0 +1,123 @@
+PODS:
+  - Alamofire (3.0.1)
+  - ALCameraViewController (1.0.10)
+  - AMSmoothAlert (1.1):
+    - GPUImage
+  - Braintree (3.9.6):
+    - Braintree/API (= 3.9.6)
+    - Braintree/Coinbase (= 3.9.6)
+    - Braintree/Drop-In (= 3.9.6)
+    - Braintree/Payments (= 3.9.6)
+    - Braintree/PayPal (= 3.9.6)
+    - Braintree/UI (= 3.9.6)
+    - Braintree/Venmo (= 3.9.6)
+  - Braintree/API (3.9.6)
+  - Braintree/Coinbase (3.9.6):
+    - Braintree/API
+  - Braintree/Drop-In (3.9.6):
+    - Braintree/API
+    - Braintree/Coinbase
+    - Braintree/Payments
+    - Braintree/PayPal
+    - Braintree/UI
+    - Braintree/Venmo
+  - Braintree/Payments (3.9.6):
+    - Braintree/API
+    - Braintree/Coinbase
+    - Braintree/PayPal
+    - Braintree/Venmo
+  - Braintree/PayPal (3.9.6):
+    - Braintree/API
+    - Braintree/UI
+  - Braintree/UI (3.9.6):
+    - Braintree/API
+  - Braintree/Venmo (3.9.6):
+    - Braintree/API
+  - ChameleonFramework/Default (2.0.6)
+  - ChameleonFramework/Swift (2.0.6):
+    - ChameleonFramework/Default
+  - Chatto (1.0.0)
+  - ChattoAdditions (1.0.0):
+    - Chatto
+  - Crashlytics (3.3.4)
+  - Fabric (1.5.5):
+    - Fabric/Base (= 1.5.5)
+  - Fabric/Base (1.5.5)
+  - GPUImage (0.1.7)
+  - JSQMessagesViewController (5.3.2):
+    - JSQSystemSoundPlayer
+  - JSQSystemSoundPlayer (4.2.0)
+  - Log (0.2)
+  - RavenSwift (0.4.0)
+  - SCLAlertView (0.4.3)
+  - Socket.IO-Client-Swift (5.5.0)
+  - Spring (1.0.3)
+  - SWBufferedToast (0.1.5)
+  - SwiftHTTP (1.0.1)
+  - SwiftSpinner (0.8.0)
+  - SwiftyJSON (2.3.0)
+  - SwiftyUserDefaults (1.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0.0)
+  - ALCameraViewController
+  - AMSmoothAlert (~> 1.0)
+  - Braintree (from `https://github.com/braintree/braintree_ios.git`, branch `master`)
+  - ChameleonFramework/Swift
+  - Chatto
+  - ChattoAdditions
+  - Crashlytics
+  - Fabric
+  - JSQMessagesViewController
+  - Log
+  - RavenSwift
+  - SCLAlertView (~> 0.4)
+  - Socket.IO-Client-Swift (~> 5.5.0)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - SWBufferedToast
+  - SwiftHTTP (~> 1.0.1)
+  - SwiftSpinner (~> 0.8)
+  - SwiftyJSON (~> 2.3.0)
+  - SwiftyUserDefaults
+
+EXTERNAL SOURCES:
+  Braintree:
+    :branch: master
+    :git: https://github.com/braintree/braintree_ios.git
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Braintree:
+    :commit: ec7f1d0507c22e5980b74adda4a2742d2470e9bd
+    :git: https://github.com/braintree/braintree_ios.git
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2457e1b2e6c46bb05c3a598c542b7bfd08893775
+  ALCameraViewController: 10c5809e561c9214bd89106de6230db4f2536463
+  AMSmoothAlert: 108cf0fc3eea9256ccfdcd9deaa283999ac1e47e
+  Braintree: 74f0bd85743c2227147c361cc2c5c9aefe083ae8
+  ChameleonFramework: a6b466873ff9a4ce3a5196c20bccf1a97ad9f446
+  Chatto: 531b14bbb7d21dfc50a86fc4ff70a90367171403
+  ChattoAdditions: 27c7b59f4c1b1d51d5f37c7199164982fcc59edf
+  Crashlytics: 41c082440d2e14da444186fff65e79c0b4b35d4c
+  Fabric: 190bf1a6eb65f7500de1347d027d2e59a7e53db1
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  JSQMessagesViewController: dc7194ed0ff8f32a7c972504ee3839e95505d91e
+  JSQSystemSoundPlayer: 94f2fc1f806b2d5c20bc2c62bd03e90f162b21dc
+  Log: 5072b3f13180b8dc89b466c2b0f0466c03b8df07
+  RavenSwift: a90485acb670b09e29172c15bf8bc5f506d0a325
+  SCLAlertView: a5c726a80a938fd3127edd7dbc19da33fb936ca3
+  Socket.IO-Client-Swift: f39dbd4e9b295907bb7fd4b9588b89c00426783d
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SWBufferedToast: 276c19272fc588f4c6de7218aedb39423407d7a9
+  SwiftHTTP: 1c8bb7cf3969c750721392fac1e40a6415e8526e
+  SwiftSpinner: 11c2c5ec7443d92f3026d3067ca8a91d4adef13f
+  SwiftyJSON: 8d6b61a70277ef2a5d710d372e06e7e2d87fb9e4
+  SwiftyUserDefaults: 507da0dcabec653f76ecab845635a6d220c1484a
+
+COCOAPODS: 0.39.0
